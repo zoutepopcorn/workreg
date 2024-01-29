@@ -31,5 +31,3 @@ work:
   ip: 8.8.8.8
   ask: False
 ```
-
-
