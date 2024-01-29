@@ -14,6 +14,9 @@ A simple tool. It will check your pulbic ip, based on the ip it will ask or regi
 24 work
 25 work
 ```
+It will show a dialog or a notification:
+![Dialog](img/dialog.png)
+![Dialog](img/notification.png)
 
 # Workreg
 
@@ -27,3 +30,5 @@ work:
   ip: 8.8.8.8
   ask: False
 ```
+
+
