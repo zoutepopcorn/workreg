@@ -1,0 +1,7 @@
+# example config
+# home:
+#   ip: 1.1.1.1
+#   ask: True
+# work:
+#   ip: 8.8.8.8
+#   ask: False
