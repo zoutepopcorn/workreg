@@ -31,3 +31,6 @@ work:
   ip: 8.8.8.8
   ask: False
 ```
+
+# V1
+The first version for Linux is here: https://github.com/zoutepopcorn/workreg/releases/tag/v1.0
