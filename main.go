@@ -80,6 +80,9 @@ func isDayRegistered()(bool) {
 
 	path := filepath.Join(getWorkregDir(), year)
 	filename := filepath.Join(path, month + ".txt")
+	if _, err := os.Stat(filename); os.IsNotExist(err) {
+		return false;
+	} 
 	line, _ := readLastLine(filename);
 	return strings.HasPrefix(line, day + " ")
 }
